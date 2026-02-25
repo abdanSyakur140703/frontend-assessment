@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router-dom";
-import Breadcrumb from "../components/Breadcrumb";
+import BreadCrumb from "../components/BreadCrumb";
 import MainContent from "../components/MainContent";
 import FilterForm from "../components/FilterForm";
 
@@ -27,7 +27,7 @@ export default function FilterPage() {
 
   {/* CONTENT */}
   <section className="flex-1 bg-white overflow-hidden -translate-x-1">
-    <Breadcrumb
+    <BreadCrumb
       provinces={data.provinces}
       regencies={data.regencies}
       districts={data.districts}
